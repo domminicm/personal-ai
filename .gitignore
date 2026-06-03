@@ -89,3 +89,14 @@ docs/windows-port/
 compound.config.json
 *.error.log
 _scratch/
+
+# Local instance — user config files stay local
+config/*.yaml
+!config/example.yaml
+!config/example.yml
+
+# SSH keys (generated for git auth)
+.ssh/
+
+# Npm cache
+.npm/
